@@ -1,0 +1,162 @@
+@font-face {
+  font-family: "PlayfairDisplay";
+
+  src: url("../fonts/Playfair_Display/PlayfairDisplay-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "UbuntuLight";
+
+  src: url("../fonts/Ubuntu/Ubuntu-Light.ttf") format("truetype");
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body {
+  font: 14px/24px "PlayfairDisplay", sans-serif;
+  line-height: 1.2;
+  color: #626262;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #626262;
+  text-decoration: none;
+}
+
+.container {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+@media (min-width: 1100px) {
+  .nav-item:not(:first-child) {
+    margin-left: 90px;
+  }
+
+  .posts,
+  .single-post,
+  .last-posts,
+  .comments,
+  .contacts,
+  .footer-info {
+    padding-left: 70px;
+  }
+
+  .post-main {
+    padding-right: 44px;
+    padding-bottom: 70px;
+    padding-left: 35px;
+  }
+
+  .single-post .post-main {
+    padding-bottom: 56px;
+  }
+
+  .post-wrapper {
+    padding: 0 115px 51px;
+  }
+
+  .post-wrapper .post:not(:nth-last-child(-n+2)) {
+    margin-bottom: 62px;
+  }
+
+  .post-wrapper .post:nth-child(odd) {
+    margin-right: 30px;
+  }
+
+  .post {
+    max-width: 420px;
+  }
+
+  .post .card-body {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .post-load {
+    margin-top: 46px;
+  }
+
+  .posts-another-content {
+    padding: 66px 101px 88px 152px;
+  }
+
+  .posts-another .card {
+    padding: 0;
+  }
+
+  .posts-another .card:not(:last-child) {
+    margin-right: 37px;
+  }
+
+  .comments-content {
+    padding: 65px 89px 154px 152px;
+  }
+
+  .footer-info {
+    padding-left: 62px;
+  }
+
+  .social {
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .col-xs-12 {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .posts-another-content {
+    padding: 20px 0;
+  }
+
+  .comments-header,
+  .comments-content .media,
+  .contacts-content {
+    padding: 20px;
+  }
+
+  .comments-content .media-body {
+    max-width: 100%;
+  }
+
+  .post .card-body,
+  .posts-another .card {
+    max-width: 420px;
+    margin: 0 auto;
+  }
+
+  .contact-title {
+    padding-left: 10px;
+  }
+
+  .footer-info,
+  .social {
+    width: 100%;
+  }
+}

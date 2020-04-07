@@ -1,0 +1,12 @@
+.header {
+  max-height: 110px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.navbar {
+  padding-right: 0;
+  padding-left: 69px;
+
+  background-color: #ffffff;
+}

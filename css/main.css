@@ -1,0 +1,384 @@
+/* Main post */
+.posts,
+.single-post {
+  padding-top: 53px;
+}
+
+.post-main {
+  border: none;
+}
+
+.post-main .card-img-top {
+  max-width: 1060px;
+}
+
+.post-main .card-body {
+  margin-top: 93px;
+  padding: 0 81px;
+}
+
+.post-category {
+  font-family: "UbuntuLight";
+  color: #b4ad9e;
+  text-transform: uppercase;
+}
+
+.post-title {
+  margin-top: 19px;
+}
+
+.post-link {
+  font-size: 30px;
+}
+
+.post-main .card-text {
+  margin-top: 29px;
+  margin-bottom: 46px;
+
+  line-height: 24px;
+  text-align: left;
+}
+
+.single-post .card-text {
+  margin-bottom: 0;
+}
+
+.post-photos .img-fluid {
+  margin: 56px auto 3px;
+}
+
+.post-comment-link {
+  margin-top: 25px;
+
+  font-family: "UbuntuLight";
+  color: #b4ad9e;
+  text-transform: uppercase;
+}
+
+.post-blockquote {
+  margin: 48px 20px 30px;
+
+  font-style: italic;
+  line-height: 24px;
+}
+
+.share {
+  display: inline-block;
+  height: 100%;
+  margin-top: 54px;
+
+  vertical-align: middle;
+}
+
+.share .share-list::before {
+  content: "Share";
+
+  padding-right: 19px;
+
+  font-size: 13px;
+  font-family: "UbuntuLight";
+  vertical-align: text-top;
+  color: #b4ad9e;
+  text-transform: uppercase;
+}
+
+.share .share-list {
+  margin-top: 0;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+.share-list .share-item:not(:last-child) {
+  margin-right: 8px;
+}
+
+.share-list .share-item {
+  display: inline-block;
+}
+
+.share-list .share-link {
+  display: block;
+  width: 18px;
+  height: 18px;
+
+  background-repeat: no-repeat;
+  background-position: left center;
+  border-radius: 10px;
+}
+
+.share-list .fb {
+  background-image: url("../image/share/fb.png");
+}
+
+.share-list .tw {
+  background-image: url("../image/share/tw.png");
+}
+
+.share-list .google {
+  background-image: url("../image/share/g+.png");
+}
+
+.share-list .tumblr {
+  background-image: url("../image/share/tumblr.png");
+}
+
+.share-list .pinterest {
+  background-image: url("../image/share/pinterest.png");
+}
+/* End Main post*/
+
+
+/* Post wrapper */
+.post-wrapper {
+  margin-top: 61px;
+}
+
+.post {
+  border: none;
+}
+
+.post .card-img-top {
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.post .card-body {
+  padding-top: 30px;
+}
+
+.post .card-text {
+  margin-top: 29px;
+  margin-bottom: 46px;
+
+  line-height: 24px;
+  text-align: left;
+}
+/* End post wrapper */
+
+
+/* Subscribe */
+.subscribe {
+  padding-top: 67px;
+  padding-bottom: 75px;
+
+  background-color: #f0f0f0;
+}
+
+.title-section {
+  font-size: 30px;
+  text-align: center;
+  color: #333333;
+}
+
+.subscribe-form {
+  width: 400px;
+  height: 40px;
+  margin: 69px auto 0;
+}
+
+.subscribe-email-field {
+  float: left;
+  width: 400px;
+  height: 100%;
+  padding-right: 32px;
+
+  font-size: 14px;
+  letter-spacing: -0.02em;
+
+  background-color: #f0f0f0;
+  border: none;
+  border-bottom: 1px solid #000000;
+}
+
+.subscribe-email-field::-webkit-search-decoration,
+.subscribe-email-field::-webkit-search-cancel-button,
+.subscribe-email-field::-webkit-search-results-button,
+.subscribe-email-field::-webkit-search-results-decoration {
+  display: none;
+}
+
+.subscribe-submit-btn {
+  display: block;
+  float: right;
+  width: 32px;
+  height: 17px;
+  padding: 0;
+
+  background: transparent url("../image/icon-send.png") center no-repeat;
+  background-size: contain;
+  border: none;
+  transform: translateY(-159%);
+  cursor: pointer;
+}
+/* End subscribe */
+
+/* Last posts */
+.last-posts {
+  padding-top: 40px;
+  padding-bottom: 98px;
+}
+
+.post-load {
+  text-align: center;
+}
+
+.post-load-link {
+  display: inline-block;
+  padding: 17px 32px;
+
+  font-size: 20px;
+  color: #626262;
+  text-decoration: none;
+
+  border: 1px solid #626262;
+}
+
+.post-load-link:hover {
+  color: #ffffff;
+
+  background-color: #626262;
+  border: 1px solid #626262;
+}
+/* End last posts */
+
+/* Posts another */
+.posts-another {
+  background-color: #f7f7f7;
+}
+
+.posts-another-header {
+  display: block;
+  margin-bottom: 38px;
+
+  font-size: 14px;
+  font-family: "UbuntuLight";
+  color: #b4ad9e;
+  text-transform: uppercase;
+}
+
+.posts-another .card {
+  max-width: 275px;
+
+  background-color: #f7f7f7;
+  border: none;
+}
+
+.posts-another .card-img-top {
+  max-width: 100%;
+}
+.posts-another-name {
+  margin-top: 18px;
+
+  font-size: 20px;
+  font-family: "PlayfairDisplay";
+}
+/* End posts another */
+
+
+/* Post comments */
+.comments-header {
+  display: block;
+  margin-bottom: 38px;
+
+  font-size: 14px;
+  font-family: "UbuntuLight";
+  color: #b4ad9e;
+  text-transform: uppercase;
+}
+
+.comments-content .media,
+.contacts-content {
+  margin: 20px auto;
+}
+
+.comments-content .media:not(:last-child) {
+  margin: 20px auto 77px;
+}
+
+.comment-user {
+  margin-bottom: 7px;
+
+  font-weight: bold;
+  font-size: 14px;
+  text-align: left;
+}
+
+.comment-text {
+  padding-right: 10px;
+
+  line-height: 24px;
+  text-align: left;
+}
+
+.comment-form {
+  box-sizing: border-box;
+  min-width: 300px;
+  max-width: 800px;
+}
+
+.comment-field-text,
+.contacts-field-text,
+.form-control {
+  min-height: 30px;
+
+  font-size: 14px;
+  font-family: "UbuntuLight";
+  color: #b4ad9e;
+  text-transform: uppercase;
+
+  border-radius: 5px;
+}
+
+.comment-field-text,
+.contacts-field-text {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px;
+  overflow: auto;
+
+  word-wrap: break-word;
+
+  resize: none;
+}
+/* End posts another */
+
+/* Contacts form */
+.contact-title {
+  font-size: 14px;
+  font-family: "UbuntuLight";
+  color: #b4ad9e;
+  text-transform: uppercase;
+}
+
+.btn-submit {
+  width: 100%;
+  margin-top: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  font-family: "UbuntuLight";
+  color: #b4ad9e;
+  text-transform: uppercase;
+
+  background-color: #ffffff;
+  border: 1px solid #626262;
+}
+
+.btn-submit:hover {
+  color: #ffffff;
+
+  background-color: #626262;
+  border: 1px solid #626262;
+}
+
+.contact-form,
+.contact-title,
+.contact-user,
+.contact-topic,
+.contact-map {
+  margin-bottom: 20px;
+}
+/* End posts another */
+

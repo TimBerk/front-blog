@@ -1,0 +1,76 @@
+.footer {
+  background-color: #f0f0f0;
+}
+
+.footer .container {
+  padding-top: 40px;
+  padding-bottom: 27px;
+
+  background-color: #f0f0f0;
+}
+
+.footer-info .footer-info-list {
+  margin-top: 0;
+  margin-right: 6px;
+  margin-left: 20px;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+.footer-info-item {
+  display: inline-block;
+}
+
+.footer-info .footer-info-item:not(:last-child) {
+  margin-right: 13px;
+}
+
+.social {
+  display: inline-block;
+  height: 100%;
+  padding-right: 112px;
+}
+
+.social .social-list {
+  margin-top: 0;
+  margin-left: 20px;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+.social .social-list::before {
+  content: "Follow";
+
+  padding-right: 20px;
+}
+
+.social-list .social-item:not(:last-child) {
+  margin-right: 13px;
+}
+
+.social-list .social-item {
+  display: inline-block;
+}
+
+.social-list .social-link {
+  display: block;
+  width: 15px;
+  height: 15px;
+
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.social-list .fb {
+  background-image: url("../image/social/facebook.png");
+}
+
+.social-list .tw {
+  background-image: url("../image/social/twitter.png");
+}
+
+.social-list .insta {
+  background-image: url("../image/social/instagram.png");
+}
