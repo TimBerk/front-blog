@@ -47,6 +47,39 @@ a:hover {
   padding-left: 0;
 }
 
+.invalid-feedback, .toast small {
+  font-size: 90%;
+  font-weight: bold;
+}
+
+.toast {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.bg-error {
+  background-color: #dc3545 !important;
+}
+
+.text-primary {
+  color: #626262 !important;
+}
+
+.page-item.active .page-link,
+.btn-primary, .btn-primary:hover,
+.custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #626262;
+  border: 1px solid #626262;
+}
+
+.edit .comment-field-text,
+.edit .contacts-field-text, 
+.edit .form-control,
+.edit .btn-block {
+  box-sizing: border-box;
+}
+
 @media (min-width: 1100px) {
   .nav-item:not(:first-child) {
     margin-left: 90px;
